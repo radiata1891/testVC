@@ -11,16 +11,16 @@
   DTS:LocaleID="5129"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{B0E173B1-83CC-4BC4-A991-CA72E2E42841}">
+  DTS:VersionBuild="2"
+  DTS:VersionGUID="{A6EF93AB-97CE-4008-901E-597CAA4E9BC1}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[LocalHost.Playground]"
+      DTS:refId="Package.ConnectionManagers[Playground]"
       DTS:CreationName="OLEDB"
       DTS:DTSID="{7B7FD037-1B98-4B12-A151-5B26ADC83ABB}"
-      DTS:ObjectName="LocalHost.Playground">
+      DTS:ObjectName="Playground">
       <DTS:ObjectData>
         <DTS:ConnectionManager
           DTS:ConnectionString="Data Source=.;Initial Catalog=Playground;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
@@ -102,8 +102,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LocalHost.Playground]"
-                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.Playground]"
+                  connectionManagerID="Package.ConnectionManagers[Playground]"
+                  connectionManagerRefId="Package.ConnectionManagers[Playground]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -207,8 +207,8 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Source.Connections[OleDbConnection]"
-                  connectionManagerID="Package.ConnectionManagers[LocalHost.Playground]"
-                  connectionManagerRefId="Package.ConnectionManagers[LocalHost.Playground]"
+                  connectionManagerID="Package.ConnectionManagers[Playground]"
+                  connectionManagerRefId="Package.ConnectionManagers[Playground]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>

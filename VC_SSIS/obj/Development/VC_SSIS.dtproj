@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">WKS-1439</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8TumIzW2JECsr+eJoPAlgAAAAAACAAAAAAADZgAAwAAAABAAAADlgohqYDa/76Dqav5YvVBaAAAAAASAAACgAAAAEAAAAFqIDfOSYOQZlr5FzjX9QDyIAAAAVHbUm1tobEzG0vVnrAjaMquuFtvrh/a9/T53xSdVYMRzgiJMKqu2dbym2Ou9T1F/lwx4engYqDwJYpPKVAHzQy7+G4Mwf92gEjoprAs3FHpEmk0Kcu+1yazSCk7spcGC8DexyWb3xQTWO0J9zK4d8rVf9EdmEBuggrz9RAEp3Gy/bx5wGUi4OBQAAAD3hvNCssyYcF6g89dvQDs4pdFl/A==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8TumIzW2JECsr+eJoPAlgAAAAAACAAAAAAADZgAAwAAAABAAAABOmr7K7KDbLXFxMW4xzXIJAAAAAASAAACgAAAAEAAAAGs2nujF5A6TlyxGm1B72euIAAAATY1WpdN2z3pkOmQKqBQUbvAk4HoNzgpG8o+4siE+ySV/JQtzyctIoY4fQ5JWd8kep72DICQV6bs887dtvmggNkAUz4e3um+EFlCbDqUCtfn197GK8P6Hhj3xdlYanwr93s7TEcDHTabklsMA0MS/gfq/Sm1IWWeWGz6zX4eZboOQZfomNytmZBQAAAAM0r3nPJWTGJ28z3DGf0P+LACL+Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,17 +42,17 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{B0E173B1-83CC-4BC4-A991-CA72E2E42841}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{A6EF93AB-97CE-4008-901E-597CAA4E9BC1}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
                 <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.ConnectionString">
+                <SSIS:Parameter SSIS:Name="CM.Playground.ConnectionString">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -67,7 +67,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.InitialCatalog">
+                <SSIS:Parameter SSIS:Name="CM.Playground.InitialCatalog">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -82,7 +82,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.Password">
+                <SSIS:Parameter SSIS:Name="CM.Playground.Password">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -96,7 +96,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.RetainSameConnection">
+                <SSIS:Parameter SSIS:Name="CM.Playground.RetainSameConnection">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -111,7 +111,7 @@
                     <SSIS:Property SSIS:Name="DataType">3</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.ServerName">
+                <SSIS:Parameter SSIS:Name="CM.Playground.ServerName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
@@ -126,7 +126,7 @@
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
-                <SSIS:Parameter SSIS:Name="CM.LocalHost.Playground.UserName">
+                <SSIS:Parameter SSIS:Name="CM.Playground.UserName">
                   <SSIS:Properties>
                     <SSIS:Property SSIS:Name="ID">
                     </SSIS:Property>
